@@ -5,8 +5,3 @@ This repository contains a script to calculate the patient response rate to phon
 
 ## Data Source
 The data source is the REDCap audit logging file, which can be exported by going to REDCap > Sidebar > Logging > Export all logging (CSV). No changes need to be made to the CSV file. 
-
-## UCI Health Results
-The bar chart below shows the patient response rate by hour for 286 UCI patients as of 2/4/20. 
-
-![UCI 1st Call Patient Response Rates by Hour](https://imgur.com/wpbTbC9.png)
