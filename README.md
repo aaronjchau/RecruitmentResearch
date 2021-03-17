@@ -1,7 +1,11 @@
-# Patient Call Response Rates
+# Optimizing Recruitment Methods for Vulnerable Patients
+
+## Goal 
+In this project, I am examining the effectiveness of our patient recruitment methods. I compare the successful return rate from mailings vs phone calls. I examine the phone call response rates by hour of day and day of week. I then filter patients by their Social Vulnerability Index to assess how their phone call response rates differ. My goal is to deliver actionable insight on how to improve response rates among patients in more vulnerable populations. 
 
  ## Overview
-This repository contains a script to calculate the patient response rate to phone calls by hour, using the logs from REDCap. Only first attempt calls are considered so each call represents one patient. The time of the call is based on the timestamp when the "Phone Contact #1 Date" field was updated in REDCap. If data was not entered in real time, the time of call will not be accurate. A patient response is defined by the selection of any "Phone Contact #1 Output" except, "Left a message" or	"No answer/unable to leave VM/busy/disconnected."
+This repository contains notebooks which demonstrate the analytical pipeline for this research project. The Geocoding notebook shows the geocoding and merging process, which I performed using the ArcPy package from ArcGIS Pro software. The Data Prep notebook shows the wrangling, cleaning, and merging of various healthcare data sources (REDCap, Clarity data tables, Excel spreadsheets, etc.). The Exploratory Data Analysis notebook shows the filtering, analysis, and visualization of the resulting data. 
 
-## Data Source
-The data source is the REDCap audit logging file, which can be exported by going to REDCap > Sidebar > Logging > Export all logging (CSV). No changes need to be made to the CSV file. 
+## Data Plots
+The manuscript for this project is in progress. In the meantime, I am including screenshots of the relevant plots below. Explanation and statistical analyses will be provided in the full paper. 
+
